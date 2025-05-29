@@ -19,7 +19,7 @@
 
         function updateThemeButton(theme) {
             if (theme === 'dark') {
-                themeIcon.textContent = '⏾';
+                themeIcon.textContent = '🌙';
             } else {
                 themeIcon.textContent = '☀︎';
             }
