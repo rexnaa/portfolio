@@ -113,19 +113,3 @@
         section.style.transition = 'all 0.6s ease';
         observer.observe(section);
     });
-
-    // // Skill items animation
-    // document.querySelectorAll('.skill-item').forEach((item, index) => {
-    //     item.style.opacity = '0';
-    //     item.style.transform = 'translateY(30px)';
-    //     item.style.transition = `all 0.6s ease ${index * 0.1}s`;
-    //     observer.observe(item);
-    // });
-
-    // // Project cards animation
-    // document.querySelectorAll('.project-card').forEach((card, index) => {
-    //     card.style.opacity = '0';
-    //     card.style.transform = 'translateY(30px)';
-    //     card.style.transition = `all 0.6s ease ${index * 0.2}s`;
-    //     observer.observe(card);
-    // });
