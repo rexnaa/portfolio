@@ -1,4 +1,14 @@
- @font-face {
+@font-face {
+      font-family: 'Helkina';
+      src: url(fonts/helkina.ttf);
+  }
+
+  @font-face {
+      font-family: 'Valleki';
+      src: url(fonts/valleki-1.ttf);
+  }
+
+@font-face {
       font-family: 'mooxy';
       src: url(fonts/mooxy.ttf);
   }
@@ -296,69 +306,6 @@
   .home-icons a:hover {
       transform: scale(1.2);
   }
-
-  /* Skills Section
-  .skills-grid {
-      display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
-      gap: 30px;
-      margin-top: 50px;
-  }
-
-  .skill-item {
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      padding: 30px 20px;
-      background: var(--bg-secondary);
-      border: 1px solid var(--border);
-      border-radius: 20px;
-      transition: all 0.3s ease;
-      position: relative;
-      overflow: hidden;
-  }
-
-  .skill-item::before {
-      content: '';
-      position: absolute;
-      top: 0;
-      left: 0;
-      right: 0;
-      height: 3px;
-      background: linear-gradient(90deg, var(--accent), #ff6b6b, #4ecdc4, #45b7d1);
-      transform: scaleX(0);
-      transition: transform 0.3s ease;
-  }
-
-  .skill-item:hover::before {
-      transform: scaleX(1);
-  }
-
-  .skill-item:hover {
-      transform: translateY(-10px);
-      box-shadow: 0 20px 40px rgba(0, 0, 0, 0.2);
-  }
-
-  .skill-logo {
-      width: 60px;
-      height: 60px;
-      margin-bottom: 15px;
-      font-size: 3rem;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-  }
-
-  .skill-name {
-      font-weight: 600;
-      font-size: 1rem;
-      text-align: center;
-  }
-
-  #skills {
-      margin: 0;
-      padding: 0;
-  } */
 
   /* Skills page marquee */
   .marquee-container {
@@ -817,16 +764,7 @@
       .hero-title {
           font-size: 3rem;
       }
-/* 
-      .skills-grid {
-          grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
-          gap: 20px;
-      }
-
-      .projects-grid {
-          grid-template-columns: 1fr;
-      } */
-
+   
       .header {
           width: calc(100% - 20px);
           padding: 10px 20px;
