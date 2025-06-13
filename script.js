@@ -21,7 +21,7 @@
             if (theme === 'dark') {
                 themeIcon.textContent = '🌙';
             } else {
-                themeIcon.textContent = '☀︎';
+                themeIcon.textContent = '☀️';
             }
         }
     });
